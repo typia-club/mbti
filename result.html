@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI恋愛スタイル診断 - 結果</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="resultArea" style="visibility: hidden;"> <!-- Initially hidden, made visible by script -->
+            <h2>診断結果</h2>
+
+            <div class="result-section">
+                <h3>あなたの恋愛タイプは： <span id="mbtiTypeCode"></span></h3>
+            </div>
+
+            <div class="result-section">
+                <h3>💖 恋愛キーワード</h3>
+                <p id="loveKeywords"></p>
+            </div>
+
+            <div class="result-section">
+                <h3>🥰 恋愛における基本スタンス</h3>
+                <p id="basicStance"></p>
+            </div>
+
+            <div class="result-section">
+                <h3>✨ アピールポイント</h3>
+                <p id="appealPoints"></p>
+            </div>
+
+            <div class="result-section">
+                <h3>🤔 関係を育む上での課題</h3>
+                <p id="challengesElement"></p>
+            </div>
+
+            <div class="result-section">
+                <h3>💞 相性の良い相手と好みの関係スタイル</h3>
+                <p id="compatibilityElement"></p>
+            </div>
+
+            <div class="result-section">
+                <h3>💌 ユニークな愛情表現やコミュニケーション</h3>
+                <p id="communicationElement"></p>
+            </div>
+
+            <button id="shareButton">結果をシェアする</button>
+            <button id="restartButton">もう一度診断する</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
